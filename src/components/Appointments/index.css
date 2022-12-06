@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #8b5cf6);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+}
+.card-bg {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 14px;
+}
+.comment-title {
+}
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-bottom: 0px;
+}
+.time {
+  margin-bottom: 0px;
+}
+.input {
+  padding-top: 0px;
+  height: 30px;
+  width: 180px;
+}
+.second {
+  padding: 20px;
+  padding-left: 40px;
+}
+.image {
+  height: 180px;
+  width: 300px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.button {
+  margin-top: 15px;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border-radius: 6px;
+  border-width: 0px;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.seperator {
+  /* border-style: 2px solid red; */
+}
+.appoint-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  border-top-style: groove;
+}
+.head {
+  font-size: 27px;
+}
+.starred {
+  color: #b5b7c4;
+  background-color: #ffffff;
+  border-color: #b5b7c4;
+  border-radius: 10px;
+}
+
+.appoints {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
